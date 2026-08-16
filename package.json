@@ -1,15 +1,17 @@
 {
-  "name": "esp32-gemini-live-robot",
+  "name": "looi-esp-ai",
   "version": "1.0.0",
-  "description": "ESP32-based Gemini Live Interactive Robot Framework with VAD and Soft Motion Control Engine",
+  "description": "ESP32 Voice Companion Server",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "pg": "^8.11.5",
-    "ws": "^8.16.0"
+    "undici": "^6.19.8",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
