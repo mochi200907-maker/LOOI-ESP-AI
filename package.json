@@ -1,0 +1,15 @@
+{
+  "name": "esp32-gemini-live-robot",
+  "version": "1.0.0",
+  "description": "ESP32-based Gemini Live Interactive Robot Framework with VAD and Soft Motion Control Engine",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "ws": "^8.16.0"
+  }
+}
